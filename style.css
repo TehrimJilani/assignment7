@@ -1,0 +1,51 @@
+body{
+    background-image: url(images/bg.jpg);
+    height: 100%;
+ 
+
+}
+#main{
+   border: 3px solid grey; 
+   width: 400px;
+border-radius: 10px 10px 10px 10px;
+margin: 0 auto;
+height: 400px;
+
+}
+#main:hover{
+    box-shadow: 10px 10px 10px 10px black;
+    border-color: goldenrod;
+    transition-duration: 2s ;
+}
+.result{
+    width: 98%;
+    background-color: lightslategrey;
+    color: white;
+    height: 82px;
+    margin-right: 8px;
+    font-size: 30px;
+
+}
+.clearbtn{
+    width: 100%;
+    background-color:lightgoldenrodyellow;
+font-size: 30px;
+    height: 70px;
+  
+}
+.btn{
+    background-color: goldenrod;
+    width: 95px;
+    height: 58px;
+    margin: 1px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.halfbtn{
+     background-color: goldenrod;
+     width: 147px;
+     height: 55px ;
+     margin-top: 1px;
+     font-size: 30px;
+     border-radius: 10px;
+}
